@@ -10,7 +10,7 @@ return {
 					numbers = "NONE",
 					strings = "NONE",
 					comments = "italic",
-					keywords = "NONE",
+					keywords = "italic",
 					constants = "NONE",
 					functions = "NONE",
 					operators = "NONE",
