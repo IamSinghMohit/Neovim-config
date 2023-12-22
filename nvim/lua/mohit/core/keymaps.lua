@@ -57,7 +57,7 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- Bufferline
 keymap("n", "<leader>bl", ":BufferLineCloseRight<CR>", opts)
 keymap("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opts)
-keymap("n", "<leader>c", ":Bdelete<CR>", opts)
+keymap("n", "<leader>c", ":Bdelete!<CR>", {noremap = true, silent = true, nowait = 0})
 keymap("n", "<leader>bj", ":BufferLinePick<CR>", opts)
 keymap("n", "<leader>be", ":BufferLinePickClose<CR>", opts)
 -- Search clearing
